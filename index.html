@@ -8,6 +8,8 @@
     </head>
     <body>
 
+        <!-- CABEÇALHO -->
+
         <header class="header">
             <a href="#" class="logo">
                 <img src="/images/logo.jpg" alt="Logo da pizzaria PizzaLanna">
@@ -27,7 +29,7 @@
                 <div id="menu-btn"><ion-icon name="menu"></ion-icon></div>
             </div>
         </header>
-        <section class="home">
+        <section class="home" id="home">
 
             <div class="content">
                 <h3>Bem vindo a PizzaLanna!</h3>
@@ -36,70 +38,80 @@
             </div>
 
         </section>
-        <section id="about">
+
+        <!-- ABOUT -->
+
+        <section class="about" id="about">
 
             <h1 class="heading"><Span>Sobre</Span> nós</h1>
 
-            <div>
-                <img src="images/sobre.jpg" alt="Nossa Pizzaria">
-            </div>
-            <div>
-                <h3>O que torna a PizzaLanna única?</h3>
-                <p>Nossa PizzaLanna, não é apenas uma pizzaria. Criamos novas e deliciosas receitas de massas e especialidades jamais degustada
-                    em outros estabelecimentos. Temos paixão no que fazemos, pela qualidade e compromisso com nossos clientes. Tradição, inovação
-                    e satisfação em servir com excelencia.
-                    <p>Temos equipes que selecionam os melhores ingredientes para garantir o melhor sabor em cada receita. Nossas tecnicas em criar
-                        e fazer uma massa leve e com sabor inigualavel. Pizzas com sabores variados e a sua escolha. <a href="#">Venha, faça já o seu pedido</a></p> 
-                        <a href="#" class="btn">Saiba mais</a>
-                    
-                </p>
+            <div class="row">
+                    <div class="image">
+                        <img src="images/sobre.jpg" alt="Nossa Pizzaria">
+                    </div>
+                
+                <div class="content">
+                    <h3>O que torna a PizzaLanna única?</h3>
+                    <p>Nossa PizzaLanna, não é apenas uma pizzaria. Criamos novas e deliciosas receitas de massas e especialidades jamais degustada
+                        em outros estabelecimentos. Temos paixão no que fazemos, pela qualidade e compromisso com nossos clientes. Tradição, inovação
+                        e satisfação em servir com excelencia.
+                        <p>Temos equipes que selecionam os melhores ingredientes para garantir o melhor sabor em cada receita. Nossas tecnicas em criar
+                        e fazer uma massa leve e com sabor inigualavel. Pizzas com sabores variados e a sua escolha. <a href="#">Venha, faça já o seu pedido!</a></p> 
+                            
+                    <a href="#" class="btn">Saiba mais</a>
+
+                        
+                    </p>
+                </div>
             </div>
             
         </section>
 
-        <section id="menu">
+        <!-- MENU --> 
+
+        <section class="menu" id="menu">
             <h1 class="heading"><Span>Nosso</Span> menu</h1>
+        
+            <div class="box-container">                
+                <div class="box">
+                    <img src="images/pizza_item_1.jpg" alt="Tantão de Pepperoni">
+                    <h3>Tantão de Pepperoni</h3>
+                    <div> R$55.99 <span>60.99</span></div>
+                    <a href="#" class="btn">Adicionar ao carrinho</a>
+                </div>
+                <div class="box">
+                    <img src="images/pizza_item_2.jpg" alt="Verdinha Vegetais uai">
+                    <h3>Verdinha Vegetais uai</h3>
+                    <div> R$45.99 <span>60.99</span></div>
+                    <a href="#" class="btn">Adicionar ao carrinho</a>
+                </div>
+                <div class="box">
+                    <img src="images/pizza_item_3.jpg" alt="Mediterrânea Trem Bão">
+                    <h3>Mediterrânea Trem Bão</h3>
+                    <div> R$75.99 <span>88.99</span></div>
+                    <a href="#" class="btn">Adicionar ao carrinho</a>
+                </div>
+                <div class="box">
+                    <img src="images/pizza_item_4.jpg" alt="Cheim de coisa... Nuuuu">
+                    <h3>Cheim de coisa... Nuuuu</h3>
+                    <div> R$45.99 <span>50.99</span></div>
+                    <a href="#" class="btn">Adicionar ao carrinho</a>
+                </div>
+                <div class="box">
+                    <img src="images/pizza_item_5.jpg" alt="Arreda e comi tudim">
+                    <h3>Arreda e comi tudim</h3>
+                    <div> R$55.99 <span>60.99</span></div>
+                    <a href="#" class="btn">Adicionar ao carrinho</a>
+                </div>
+                <div class="box">
+                    <img src="images/pizza_item_6.jpg" alt="Saborosa Demais da conta">
+                    <h3>Saborosa Demais da conta</h3>
+                    <div> R$85.99 <span>100.99</span></div>
+                    <a href="#" class="btn">Adicionar ao carrinho</a>
+                </div>
+            </div>
         </section>
-        <div class="box-container">
-            
-            <div class="box">
-                <img src="images/pizza_item_1.jpg" alt="Tantão de Pepperoni">
-                <h3>Tantão de Pepperoni</h3>
-                <div> R$55.99 <span>60.99</span></div>
-                <a href="#" class="btn">Adicionar ao carrinho</a>
-            </div>
-            <div class="box">
-                <img src="images/pizza_item_2.jpg" alt="Verdinha Vegetais uai">
-                <h3>Verdinha Vegetais uai</h3>
-                <div> R$45.99 <span>60.99</span></div>
-                <a href="#" class="btn">Adicionar ao carrinho</a>
-            </div>
-            <div class="box">
-                <img src="images/pizza_item_3.jpg" alt="Mediterrânea Trem Bão">
-                <h3>Mediterrânea Trem Bão</h3>
-                <div> R$75.99 <span>88.99</span></div>
-                <a href="#" class="btn">Adicionar ao carrinho</a>
-            </div>
-            <div class="box">
-                <img src="images/pizza_item_4.jpg" alt="Cheim de coisa... Nuuuu">
-                <h3>Cheim de coisa... Nuuuu</h3>
-                <div> R$45.99 <span>50.99</span></div>
-                <a href="#" class="btn">Adicionar ao carrinho</a>
-            </div>
-            <div class="box">
-                <img src="images/pizza_item_5.jpg" alt="Arreda e comi tudim">
-                <h3>Arreda e comi tudim</h3>
-                <div> R$55.99 <span>60.99</span></div>
-                <a href="#" class="btn">Adicionar ao carrinho</a>
-            </div>
-            <div class="box">
-                <img src="images/pizza_item_6.jpg" alt="Saborosa Demais da conta">
-                <h3>Saborosa Demais da conta</h3>
-                <div> R$85.99 <span>100.99</span></div>
-                <a href="#" class="btn">Adicionar ao carrinho</a>
-            </div>
-            
-        </div>
+        
 
         <section id="products">
             <h1 class="heading"><span>Combos e</span> promoções</h1>

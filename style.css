@@ -183,5 +183,91 @@ section {
     line-height: 1.8;
     padding: 1rem 0;
     color: #ffffff;
+    
 
 }
+
+/* ABOUT */
+.about .row {
+    display: flex;
+    align-items: center;
+    background: var(--bg-card);
+    flex-wrap: wrap;
+    border: var(--border);    
+
+}
+.about .row .image {
+    flex: 1 1 45rem;
+}
+
+.about .row .image img {
+    width: 100%;
+}
+
+.about .row .content {
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+
+.about .row .content h3 {
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.about .row .content p {
+    font-size: 1.6rem;
+    color: #cccccc;
+    padding: 1rem 0;
+    line-height: 1.8;
+    text-align: justify;
+
+}
+
+/* MENU */
+
+.menu .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+
+.menu .box-container .box {
+    padding: 5rem;
+    text-align: center;
+    border: var(--bg-card);
+    background: var(--bg-card);
+
+}
+
+.menu .box-container .box img {
+    height: 18rem;
+    border-radius: 100%;
+
+}
+
+.menu .box-container .box h3 {
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.menu .box-container .box .price {
+    color: #ffffff;
+    font-size: 2.5rem;
+    padding: 0.5rem 0;
+}
+
+.menu .box-container .box .price span {
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    font-weight: lighter;
+
+}
+.menu .box-container .box:hover {
+    background: #ffffff
+}
+
+
+
+
