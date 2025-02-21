@@ -99,8 +99,8 @@ section {
 }
 
 .header .logo img {
-    width: 80px; /* Largura da pizza */
-    height: 80px;
+    width: 60px; 
+    height: 60px;
     border-radius:50%;
     border: 3px solid #cccccc;
 
