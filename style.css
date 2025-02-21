@@ -99,8 +99,11 @@ section {
 }
 
 .header .logo img {
-    height: 5.5rem;
-    border-radius:100%;
+    width: 80px; /* Largura da pizza */
+    height: 80px;
+    border-radius:50%;
+    border: 3px solid #cccccc;
+
 }
 
 .navbar a {
