@@ -472,7 +472,7 @@ section {
 
 /* @media (condição) Estilos que serão aplicados se a condição for verdadeira */
 
-@media (max-width 991px) {
+@media (max-width: 990px) {
     html {
         font-size: 55%;
     }
@@ -514,7 +514,7 @@ section {
     }
 
     .home {
-        background.position: left;
+        background-position: left;
         justify-content: center;
         text-align: center;
     }
